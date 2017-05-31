@@ -13,7 +13,7 @@
 }
 
 .box {
-  min-height: 200px;  
+  min-height: 200px;
 }
 
 .all-boxes {
@@ -57,6 +57,24 @@
 }
 
 @media screen and (max-width: 1299px) and (min-width: 415px) {
+
+.box {
+  width: 47vw;
+  margin-bottom: 2vh;
+}
+
+.box:nth-child(odd) {
+  float: left;
+  margin-right: 2vw;
+}
+
+.box:nth-child(even) {
+  float: right;
+}
+
+.box:nth-child(n+5) {
+  margin-bottom: 0;
+}
 
 }
 

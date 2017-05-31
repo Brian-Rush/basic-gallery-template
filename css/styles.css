@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*:not(html):not(body) {
+  box-sizing: border-box;
+}
+
+.header {
+  background: gray;
+  height: 100px;
+}
+
+.box {
+  min-height: 200px;  
+}
+
+.all-boxes {
+  margin: 2vh 2vw;
+}
+
+.box1 {
+  background: red;
+}
+
+.box2 {
+  background: orange;
+}
+
+.box3 {
+  background: yellow;
+}
+
+.box4 {
+  background: green;
+}
+
+.box5 {
+  background: blue;
+}
+
+.box6 {
+  background: purple;
+}
+
+@media screen and (max-width: 414px) {
+
+  .box {
+    margin-bottom: 2vh;
+  }
+
+  .box:last-child {
+    margin-bottom: 0;
+  }
+
+}
+
+@media screen and (max-width: 1299px) and (min-width: 415px) {
+
+}
+
+@media screen and (min-width: 1300px) {
+
+}
